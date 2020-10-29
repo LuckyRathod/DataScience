@@ -1,0 +1,7 @@
+Exploratory Data Analysis.
+
+Once you get Data
+
+1. Feature Engineering
+- Handle Missing values
+- Handle Cateogrical Features

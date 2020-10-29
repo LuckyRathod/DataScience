@@ -1,0 +1,16 @@
+Seaborn
+
+Numerical Plots
+
+1.Distplot
+2.Joinplot
+3.Pairplot
+
+Correlation Matrix with heatmap
+
+Categorical plots
+
+1.Count plot
+2. Bar plot
+3. Box plot
+4. Violin plot
