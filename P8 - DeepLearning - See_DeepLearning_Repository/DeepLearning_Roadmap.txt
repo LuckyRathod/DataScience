@@ -1,0 +1,29 @@
+1. Introduction to Neural Network
+2. Activation Functions
+3. Loss Functions
+4. Optimizers
+6. Gradient Descent
+7. SGD
+8. Adagrad
+9. RMSprop
+10.Adam 
+
+Artificial Neural Network (ANN)
+
+Convolution Neural Network (CNN)
+1. Transfer Learning (VGG16,Alexnet)
+2. Object Detection
+3. RCNN,Masked RCNN,SSD,YOLO
+
+Recurrent Neural Network
+1. RNN
+2. LSTM
+3. GRU
+4. BI Directional LSTM
+5. Word Embeddings , Word2Vect
+6. Encoders and Decoders
+7. Attention Models
+8. Transformers
+9. BERT
+10.HuggingFace,ktrain
+11.MURIL
