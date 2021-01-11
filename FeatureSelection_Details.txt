@@ -1,0 +1,17 @@
+
+Part4 - Feature Selection
+
+1. Basic Techniques
+	- Filter Method : Correlation , Chi Square
+	- Wrapper Method
+		1. Forward Selection
+		2. Backward Selection
+		3. Recursive Feature Elimination
+	- Embedded Methods Using and Permutation & Combination
+
+2. Advanced Techniques using Sklearn 
+	- Univaraite Selection : SelectKBest Features
+	- Feature Importance : ExtraTreesClassifier
+	- Variance Threshold : Dropping Contant features
+	- Information Gain : Mutual Information Classifier
+	- Select from Model : Select from Lasso Regression 

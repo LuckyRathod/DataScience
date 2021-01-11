@@ -1,0 +1,74 @@
+
+Part 3 - Feature Engineering 
+
+1. Handling Imbalanced Dataset
+2. Handling Missing Values
+3. Handling Outliers
+4. Cateogrical Encoding
+5. Feature Transformation
+
+*** Handling Imbalanced Dataset Using Imblearn library ***
+1. Under Sampling 
+2. Over Sampling
+3. SMOETomek
+
+*** Handling Missing Values ***
+1. Different Types of Missing Values
+	- MCAR
+	- MNAR
+	- MAR
+2. Techniques to Handle different types of Missing Values
+	** Numerical Variables Missing values **
+		- Mean/Median/Mode Replacement
+		- Sample Imputation
+		- End of Distribution Imputation
+		- Arbitary Imputation
+		- Capturing NAN values with new Feature
+
+	** Categorical Varaibles Missing Values **
+		- Frequency Category Imputation
+		- Capturing NAN with new Feature
+		- Replacing NAN with new category
+
+3. Handling Outliers 
+	- Identify Outliers - Zscore,IQR
+	- Which Algorithm is Sensitive to Outliers
+	- Which Technique to use when Data is Normally Distributed or Not Normally Distributed 
+
+4. Categorical Encoding
+	- Types of Categorical Variables (Nominal and Ordinal Categorical Variables)
+	** Nominal Encoding Techniques **
+		- One Hot Encoding (Dummy Variable Trap)
+		- One Hot Encoding - Many Categories in One Feature
+		- Mean Encoding
+		- Frequency Encoding
+		- Probability Ratio Encoding
+	** Ordinal Encoding Techniques **
+		- Label Encoding 
+		- Target Guided Encoding Techniques
+
+5. Feature Transformation
+	- Standard Scaling
+	- Min Max Normalization
+	- Robust Scaler 
+	- Gaussian Transformation -- QQ Plot -- Data - Not Distributed Normally 
+		1. Log Transformation
+		2. Reciprocal
+		3. Square Root
+		4. Exponential
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+PART 1 : Python - Important Concepts
+
+1.List 
+2.Sets
+3.Dictionaries
+4.Tuples
+
+Libraries
+1. Pandas 
+2. Numpy
+3. Matplot Lib
+	-Line Plot,Scatter Plot,Bar Plot,Histograms
+4. Seaborn
+	* Numerical Values - Joint Plot,Pair Plot,Distribution plot,Correlation Matrix
+	* Categorical Values - Count Plot,Bar plot,Box plot,Violin plot
+
+5. Functions in Python 
+	-Positional and Keyword Arguments
+	-Lambda Function
+	-Map Function
+	-Filter Function
+	-Apply Function of Dataframe.
+
+PART 2 : Statistics
+
+1. Population - Population Mean
+2. Sample - Sample Mean
+3. Random Variables 
+	- Discrete Random Variable
+	- Continous Random Variable
+
+4. Distribution
+	- Standard Normal Distribution 
+	- Gaussian Normal Distribution - Empirical Formula - Bell curve
+	- Log Normal Distribution
+	- *** Why are we learning these Distributions ? ***
+
+5. Covariance in Statistics
+	- Positive and Negative Covariance
+	- How it is calculated
+	- *** DisAdvantage of using Covaraince ***
+
+6. Pearson Correlation Coefficient 
+	- *** Disadvantages of using Pearson Correlation Coefficient
+
+7. Spearman Correlation Coefficient
+	- How it is calculated - Non Linear features
+
+8. Finding Outliers 
+	- Zscore or Standarad Normal Distribution
+	- IQR - Q1,Q3,Lower Bound , Upper Bound
