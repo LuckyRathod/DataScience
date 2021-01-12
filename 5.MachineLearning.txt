@@ -1,0 +1,117 @@
+*** Machine Learning Algorithms ***
+
+1. Bias and Variance Intuition (Overfitting & Underfitting)
+	- Training dataset Error & Testing Dataset Error
+	- High Bias & High Variance
+	- Low Bias & Low Variance
+	- Low Bias & High Variance
+	- Undefitting,Genralized Model,Overfitting Representation
+
+2. Performance Metrics of Classification Problem
+	- Confusion Matrix
+	- False Positive Ratio (FPR-Type 1 Error)
+	- False Negative Ratio (FNR- Type 2 Error)
+	- Recall (True Posive Ratio) Sensitivity - FN
+	- Precision ( Positive Prediction Value) - FP
+	- Accuracy
+	- F Beta or F1 Score (FP and FN are imp) - Select Beta value , Based on Imp of FP AND FN
+	- Cohen Kappa
+	- ROC Curve,AUC Score -- To select the which Threshold value should be selected 
+	- PR Curve
+	- When to use Precision and When to use Recall (SPAM & Cancer Example)
+
+
+3. Linear Regression 
+	- Best Fit Line 
+	- What is Slope and Intercept
+	- How to choose Best fit line
+	- Cost Function
+	- Gradient Descent [Optimization Algorithm to minimize Cost function]
+	- Learning Rate Parameter 
+	- Evaluation Metrics of Regression (MSE,Rsquare,Adjusted Rsquare)
+	- Residual and Average total error in Rsquare
+	- Disadvantages of R square
+	- Penalization of features in Adjusted R square
+
+	*** Regularization or Hyper Parameter Tunning Techiques ***
+	- Penalizing Slope in Cost Functions
+	- How Lambda Parameter with Slope in Ridge (Square)  and Lasso (Magnitude)
+
+	*** MultiCollinearity in Linear Regression ***
+	- How to use Ordinary Least Square Method to identify Collinearity btwn Independent Features
+	- Which feature to drop when there is Multicollinearity between Independent Features
+
+4. Logistic Regression
+	- Why we use Logistic Regression ? We can also use Linear Regression - Outlier
+	- How best fit line is created when there are outliers 
+	- Why Activation Activatio Function is used 
+	- Logistic Regression for Multiple Categories
+
+5. Decision Tree Classifier/Regressor
+	- Entropy Alogrithm - Selecting Right features from Dataset - Splitting done untill we get Pure Subset
+	- Information Gain - Selecting which feature to select for splitting when there are multiple features 
+	- Why Gini Impurity is more efficient than Entropy 
+	- Decision Tree split - For Numerical Feature
+
+6. k Nearest Neighbours 
+	- Algorithm
+	- Euclidean Distance & Manhattan Distance 
+	- KNN - Regressor 
+
+7. Ensemble Techniques 
+	- Bagging (Row Sampling with Replacement): Random Forest (Row Sampling and Column Sampling)
+	- Boosting : Baseline models are created Sequentially
+	1. AdaBoost - Records which are not correclty classified in BL1 transferred to BL2 
+	2. Gradient Boosting - BaseModel and Decision Tree are created sequentially untill the ypred = y
+	3. XGBoost 
+
+8. Naive Bayes Classifier
+	- Independent Events 
+	- Dependent Events
+	- Conditional Probability
+	- Bayes Theorem
+	- Applying Bayes theorem with our Our Data set - Naive Bayes Classifier 
+
+9. SVM 
+	- Hyperplanes
+	- Support Vectors
+	- Marginal Distance 
+	- AIM of SVM - Maximum Marginal Distance
+	- How y value is calculated w.r.t points 
+	- Opitimation Function used in SVM
+
+10. Cross Validation Techniques
+	- Leave One out Cross Validation
+	- K FoldCross Validation
+	- Stratified Cross Validation - It makes sure dataset is not imbalanced in Train and Test set
+	- Time Series Cross Validation
+
+11. Curse of Dimensionality 
+
+12. Principal Component Analysis
+	- Selection of Principal component - Considering the variance 
+
+13. Clustering 
+	- K Means Clustering : WCSS (Elbow Method)
+	- Heirarchical Clustering : Dendogram
+	- DBSCAN :
+		* Epsilon
+		* Core points 
+		* Min Points 
+		* Border Points 
+		* Noise Points 
+	- Silhouette Clustering - Validating Clustering Models 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

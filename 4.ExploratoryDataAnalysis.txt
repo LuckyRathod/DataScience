@@ -1,0 +1,42 @@
+
+Part 5 - Machine Learning - EDA
+
+
+*** Exploratory Data Analysis ***
+
+1. Univariate,Bivariate ans Multivariate Analysis (Exploratory Data Analysis)
+2. Histogram - Bell Curve 
+3. Z Score - Statistics 
+	- Use of Z score 
+	- How to identify distributions at particular STD 
+	- Eg - Identifying the Probability of Students score >Value using Z score
+
+4. Probability Density Function & Cumulative Density Function - Histogram
+
+5. Hypothesis Testing (Interpretation and Conclusion done on Sample data)
+	- Evaluation of 2 Mutual Exclusive Statements 
+	- H0(Null Hypothesis) and H1 (Alternate Hypothesis)
+	- Conclusion - Accept or Reject Null hypothesis (P value < 0.05 -Reject Null Hyppothesis)
+	- Type 1 Error (H0 -Reject , Eventhough H0 is true )
+	- Type 2 Error (H0-Accept , Eventhough H1 is true)
+
+6. P value,T test,Anova test (Accept/Reject Null Hypothesis)
+	** T - Test - One Sample T test,Two Sample T Test
+	** Chi Square Test 
+	** Anova Test
+	** Correlation
+	
+	** When to Use Which Test ?	
+	- Considering One Categorical Feature - One Sample Proportion Test
+	- Considering Two Categorical Features - Chi Square Test 
+	- Considering One Continous Features - T test
+	- Considering Two Continous Feature - Correlation - T test
+	- Considering One Continous and One Categorical (<2 categories - T test)
+	- Considering One Continous and One Categorical (>2 categories - Anova Test) 
+
+
+
+
+
+
+

@@ -1,0 +1,115 @@
+
+Deep learning 
+
+1. Neural Network Concepts
+	- How does neural network 
+	- Neurons
+	- How to Train Neural Network [Forward and Back Propogation]
+	- How to Train MultiLayer Neural Network
+	- Chain Rule Differentiation with BackPropogation
+	- Vanishing Gradient Descent Problem
+	- Exploding Gradient Descent Problem
+	- Regularization - Drop out layers in Multilayer Neural Network
+
+2. Activation Functions
+	- Why Activation Functions are used 
+	- 9 Activation Functions
+		1.Sigmoid
+		2.Threshold Activation Function - TANH
+		3.RELU - Rectifier Linear Unit
+		4.LEAKY RELU
+		5.ELU (Exponential Linear Unit)
+		6.PRELU
+		7.SWISH
+		8.Softplus
+		9.Softmax
+
+3. Weight Initialization Techniques
+	-Uniform Distribution ------- It works really well with Sigmoid Activation Function
+	-Xavier/Gorat Distribution --- It works really well with Sigmoid Activation Function
+		1. Xavier/Gorat Normal Distribution
+		2. Xavier/Gorat Uniform Distribution
+	-HE init ---------------------- It works really well with RELU Activation function
+		1.HE Normal 
+		2.HE Uniform
+
+4. Difference between Epochs and Iterations
+5. Global Mimnimum and Local Minimum[It depicts we have reached Convergence Level]
+6. Convex Function and Non Convex Functions
+7. Deep Learning Optimizers
+	- Gradient Descent Optimizer
+	- Stochastic Gradient Descent
+	- Mini Batch Stochastic Gradient Descent
+	- Mini Batch Stochastic Gradient Descent with Momentum- Exponential Moving Average (To reduce Noise)
+	- AdaGrad Optimizer - [Learning Rate parameter changes in every neuron,epoch,iteration]
+		** Why do we require different Learning Rate Parameters ? -- Dense And Sparse Features
+		** Alpha t is used 
+	- AdaDelta Optimizer and RMS Prop
+		** Weighted Average is used - Does not inlcude Summation of all time intervals 
+	- Adam Optimizer 
+		** Combination of Momentum and RMS Prop 
+
+*** Artificial Neural Network
+
+*** Convolution Neural Network
+	- Human Brain [Visual Cortex,V1,V2...V6] vs Convolution Neural Network
+	- Convolution Operation 
+		- Filters [Vertical Edge Filter,Horizontal Edge Filter etc]
+		- Multiplication of Filter and Image with Stride to get Output 
+		- Output Dimensions Formula [ n - f + 1 ]
+
+	- Padding in CNN
+		- To avoid Loss of Information after Conv Operation 
+		- Padding Techniques 
+			1. Zero Padding
+			2. Neighbour Padding
+		- Output Dimnesion Formula [ n +2p - f + 1]
+
+	- Output Dimension Formula [ (n +2p - f)/s + 1]
+ 
+	- Weights Updation of Filters in CNN
+
+	- Max Polling Layer 
+		- Location Invariant 
+		- Preserving information and reducing size
+		- Pooling Techniques
+			1. Min Pooling
+			2. Max Pooling
+			3. Average Pooling
+
+	- Transfer Learning Techniques
+		1. AlexNet - Architecture and Practical Implementation
+		2. VGGNet - Architecture and Practical Implementation
+		3. Inception - Architecture and Practical Implementation
+		4. Resnet - Architecture and Practical Implementation
+		5. All Transfer Learning Techniques with Implementation using keras
+
+*** Recurrent Neural Network
+
+1. RNN
+2. LSTM
+3. GRU
+4. BI Directional LSTM
+5. Word Embeddings , Word2Vect
+6. Encoders and Decoders
+7. Attention Models
+8. Transformers
+9. BERT
+10.HuggingFace,ktrain
+11.MURIL
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+
+Natural Language Processing 
+
+1. Text Preprocessing Level 1
+	- Tokenization
+	- Stemming 
+	- Lemmatization
+	- Stopwords 
+
+2. Text Preprocessing Level 2
+	- BOW Model : Binary BOW , Count BOW Model (Importance of Word is not preserved)
+	- TFIDF : TF and IDF Matrix are calculated , Followed by there TF * IDF - Importance of word is given
+	- Unigrams ans Bigrams used in BOW 
+
+3. Text Preprocessig Level 3
+	- Word2Vect using Gensim (Semantic information is preserved in these techniques)
+
+4. Solve Machine Learning Usecases 
+
+5. Get the Understanding Of Artificial Neural Network
+
+6. Recurrent Neural Networks
+	- How it preserves sequential Information ?
+	- Applications of RNN
+	- RNN - Forward Propogation over time 
+	- RNN - Backward Propogation over time 
+
+7. Problems in RNN
+	- Vanishing Gradient Problem
+	- Exploding Gradient Problem
+
+8. RNN - LSTM Architecture 
+
+9. Text Preprocessing Level 3
+	- Word Embeddings (Words converted to Vectors using Features)
+		- LearnEmbeddding
+		- Pretrained Embedding - GLOVE
+
+10.Bidirectional LSTM RNN, Encoders And Decoders, Attention Models
+11.Transformers 
+12.BERT
+
+
+
+
+
+
+
+
