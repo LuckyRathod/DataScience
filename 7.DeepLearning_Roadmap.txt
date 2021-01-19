@@ -94,9 +94,8 @@ Deep learning
 6. Encoders and Decoders
 7. Attention Models
 8. Transformers
-9. BERT
+9. BERT -- MURIL
 10.HuggingFace,ktrain
-11.MURIL
 
 
 
