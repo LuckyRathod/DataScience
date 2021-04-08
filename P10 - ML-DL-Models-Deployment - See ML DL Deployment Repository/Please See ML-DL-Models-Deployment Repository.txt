@@ -1,0 +1,5 @@
+Please See ML-DL-Models-Deployment Repository to understand Deployment Frameworks and Platforms
+- Heroku , AWS , Azure , Google Cloud , Containerization - Docker , Kubernetes
+- API Deployment Frameworks - Flask , FastAPI , Django 
+
+https://github.com/LuckyRathod/ML-DL-Models-Deployment
